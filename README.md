@@ -21,8 +21,10 @@ Amazon EC2 lets you spin up virtual machines and manage scalable compute resourc
 - Created and reused **Custom AMIs** for faster provisioning
 - Attached **EBS volumes** for additional persistent storage
 - Used **Snapshots** for backup and recovery
-- Set up **Auto Scaling Groups** and **Load Balancers** for fault tolerance and high availability  
-🔗 _[View EC2 Project](#)_
+- Set up **Auto Scaling Groups** and **Load Balancers** for fault tolerance and high availability
+
+🔗 _[View EC2 Project - Linux](./AWS%20EC2%20Linux-Sachin(CSE-niit)097.pdf)
+🔗 _[View EC2 Project - Windows](./AWS%20EC2%20Microsoft-Sachin(CSE-niit)097.pdf)
 
 ---
 
