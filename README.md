@@ -41,7 +41,7 @@ Amazon S3 offers highly available and scalable object storage. My work on S3 inc
 - Exploring various **storage classes** (Standard, IA, Glacier) to optimize cost
 - Hosting a **Static Website** directly from an S3 bucket
  
-🔗 _[View S3 Project](./S3(Simple%20Storage%20Service)-Sachin(CSE-NIIT)097.pdf)
+🔗 _[View S3 Project](./S3(Simple%20%20Storage%20Service)-Sachin(CSE-NIIT)097.pdf)
 
 ---
 
