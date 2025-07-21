@@ -24,6 +24,7 @@ Amazon EC2 lets you spin up virtual machines and manage scalable compute resourc
 - Set up **Auto Scaling Groups** and **Load Balancers** for fault tolerance and high availability
 
 🔗 _[View EC2 Project - Linux](./AWS%20EC2%20Linux-Sachin(CSE-niit)097.pdf)
+
 🔗 _[View EC2 Project - Windows](./AWS%20EC2%20Microsoft-Sachin(CSE-niit)097.pdf)
 
 ---
@@ -38,8 +39,9 @@ Amazon S3 offers highly available and scalable object storage. My work on S3 inc
 - Enabling **Versioning** to track changes across files
 - Using **Presigned URLs** for time-limited secure file access
 - Exploring various **storage classes** (Standard, IA, Glacier) to optimize cost
-- Hosting a **Static Website** directly from an S3 bucket  
-🔗 _[View S3 Project](#)_
+- Hosting a **Static Website** directly from an S3 bucket
+ 
+🔗 _[View S3 Project](./S3(Simple%20Storage%20Service)-Sachin(CSE-NIIT)097.pdf)
 
 ---
 
@@ -52,8 +54,9 @@ Amazon SNS is used for real-time alerting and communication. In this project, I:
 - Verified subscription endpoints securely
 - Sent messages using both the **AWS Console** and **CLI**
 - Understood the **Pub/Sub architecture** in action
-- Managed and cleaned up unused topics to control usage costs  
-🔗 _[View SNS Project](#)_
+- Managed and cleaned up unused topics to control usage costs
+ 
+🔗 _[View SNS Project](./Simple%20Notification%20Service-Sachin(CSE-NIIT)097.pdf)
 
 ---
 
@@ -66,8 +69,9 @@ Amazon SQS provides durable message queues for asynchronous processing. Here’s
 - Connected **SNS Topics** to SQS for real-time data flow
 - Simulated a **Pub/Sub pattern** using SNS + SQS
 - Triggered **Lambda Functions** using SQS events
-- Practiced queue management, including purging and deletion  
-🔗 _[View SQS Project](#)_
+- Practiced queue management, including purging and deletion
+  
+🔗 _[View SQS Project](./Simple%20Queue%20Service-%20Sachin(CSE-NIIT)097.pdf)
 
 ---
 
@@ -80,8 +84,9 @@ IAM enables secure access control for AWS resources. My exploration of IAM invol
 - Applying both **Managed** and **Custom Policies**
 - Testing access permissions for EC2, SNS, and other services
 - Following the **Principle of Least Privilege** for security
-- Cleaning up unused users and policies to maintain a secure environment  
-🔗 _[View IAM Project](#)_
+- Cleaning up unused users and policies to maintain a secure environment
+
+🔗 _[View IAM Project](./Identity%20and%20Access%20Management%20-Sachin(CSE-NIIT)097.pdf)
 
 ---
 
