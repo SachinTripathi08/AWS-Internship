@@ -1,35 +1,100 @@
-# AWS Learning and Practice Repository
+# ☁️ AWS Cloud Internship Project 2025
 
-Welcome to the AWS Learning and Practice repository! This repository is designed to help you learn essential AWS services by providing hands-on practice scenarios and documentation. Whether you're just starting with AWS or looking to solidify your cloud skills, you'll find guides and examples here to help you set up and work with key AWS resources.
-
-## What You'll Learn
-
-In this repository, you can learn and practice the following AWS services and concepts:
-
-- **EC2 Instances**  
-  - Launch and configure Amazon EC2 servers.
-  - Deploy both Amazon Linux and Microsoft Windows operating systems.
-- **EBS Volumes**  
-  - Attach, detach, and manage Elastic Block Store (EBS) volumes.
-- **Amazon Machine Images (AMI)**  
-  - Create and use custom AMIs for quick server provisioning.
-- **Snapshots**  
-  - Take and restore EBS snapshots for backup and disaster recovery.
-- **Elastic Load Balancer (ELB)**  
-  - Distribute incoming traffic across multiple EC2 instances for high availability.
-- **Auto Scaling & AutoScaling Groups**  
-  - Automatically scale your EC2 fleet up or down based on demand.
+Welcome to my AWS Cloud Training & Internship Repository!  
+This repository documents my hands-on journey through Amazon Web Services using **Free Tier** tools and services. Throughout the internship, I worked on real-world, modular cloud solutions with detailed configurations, screenshots, and implementation steps.
 
 ---
 
-## Repository Structure
+## 🚀 What's Included?
 
-- `/docs` — Step-by-step guides and explanations for each AWS service.
-- `/scripts` — Sample scripts (AWS CLI, CloudFormation, etc.) to automate AWS resource creation and management.
-- `/examples` — Templates and examples for common AWS setups.
-- **PDF Guide** — A comprehensive PDF (`AWS_Guide.pdf`) with step-by-step instructions, screenshots, and images for each AWS service and topic mentioned above.
+Here you’ll find five core modules I explored during the internship, each designed to strengthen my practical understanding of cloud computing fundamentals.
 
 ---
 
+### 🖥️ 1. Amazon EC2 – Elastic Compute Cloud  
+**Deploy, Manage & Scale Virtual Servers in the Cloud**
 
-Happy Learning! 🚀
+Amazon EC2 lets you spin up virtual machines and manage scalable compute resources in the cloud. In this project:
+
+- Launched both **Linux** and **Windows** virtual servers
+- Installed and hosted websites using **Apache (Linux)** and **IIS (Windows)**
+- Created and reused **Custom AMIs** for faster provisioning
+- Attached **EBS volumes** for additional persistent storage
+- Used **Snapshots** for backup and recovery
+- Set up **Auto Scaling Groups** and **Load Balancers** for fault tolerance and high availability  
+🔗 _[View EC2 Project](#)_
+
+---
+
+### 🗃️ 2. Amazon S3 – Simple Storage Service  
+**Store, Secure & Share Data at Scale**
+
+Amazon S3 offers highly available and scalable object storage. My work on S3 included:
+
+- Creating and configuring multiple **S3 Buckets**
+- Managing **public/private** access using bucket policies and IAM
+- Enabling **Versioning** to track changes across files
+- Using **Presigned URLs** for time-limited secure file access
+- Exploring various **storage classes** (Standard, IA, Glacier) to optimize cost
+- Hosting a **Static Website** directly from an S3 bucket  
+🔗 _[View S3 Project](#)_
+
+---
+
+### 📢 3. Amazon SNS – Simple Notification Service  
+**Send Instant Notifications via Email & SMS**
+
+Amazon SNS is used for real-time alerting and communication. In this project, I:
+
+- Created **SNS Topics** and set up **Email/SMS Subscriptions**
+- Verified subscription endpoints securely
+- Sent messages using both the **AWS Console** and **CLI**
+- Understood the **Pub/Sub architecture** in action
+- Managed and cleaned up unused topics to control usage costs  
+🔗 _[View SNS Project](#)_
+
+---
+
+### 📬 4. Amazon SQS – Simple Queue Service  
+**Queue-Based Messaging for Decoupled Applications**
+
+Amazon SQS provides durable message queues for asynchronous processing. Here’s what I did:
+
+- Set up **Standard Queues** to send/receive messages
+- Connected **SNS Topics** to SQS for real-time data flow
+- Simulated a **Pub/Sub pattern** using SNS + SQS
+- Triggered **Lambda Functions** using SQS events
+- Practiced queue management, including purging and deletion  
+🔗 _[View SQS Project](#)_
+
+---
+
+### 🛡️ 5. AWS IAM – Identity and Access Management  
+**Control Access and Protect AWS Resources**
+
+IAM enables secure access control for AWS resources. My exploration of IAM involved:
+
+- Creating custom **Users**, **Groups**, and **Roles**
+- Applying both **Managed** and **Custom Policies**
+- Testing access permissions for EC2, SNS, and other services
+- Following the **Principle of Least Privilege** for security
+- Cleaning up unused users and policies to maintain a secure environment  
+🔗 _[View IAM Project](#)_
+
+---
+
+## 📂 About the Internship
+
+This internship gave me hands-on experience across a variety of AWS services, allowing me to build and understand real infrastructure in a cloud environment. Each module was documented thoroughly to ensure that the learning is replicable and understandable by others.
+
+---
+
+### 📸 Highlights
+
+> Screenshots, configuration steps, diagrams, and CLI outputs are included in each project folder.
+
+---
+
+## 📬 Let's Connect!
+
+If you're interested in cloud technologies, or if you're just starting your AWS journey, feel free to fork this repository, explore the projects, or connect with me for collaboration!
