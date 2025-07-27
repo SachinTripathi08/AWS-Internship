@@ -102,6 +102,7 @@ VPC allowed me to create a secure and customizable network within AWS. My explor
 - **Testing communication between subnets and cleaning up unused components** to maintain an organized and cost-efficient setup  
 
 🔗 _[View VPC Project](./VPCsachin(CSE-niit)097.pdf)
+
 ---
 ## 📂 About the Internship
 
