@@ -90,6 +90,19 @@ IAM enables secure access control for AWS resources. My exploration of IAM invol
 
 ---
 
+## 6. AWS VPC – Virtual Private Cloud  
+**Designing and Managing Isolated Network Environments**  
+
+VPC allowed me to create a secure and customizable network within AWS. My exploration of VPC involved:  
+
+- **Designing custom VPCs** with chosen IP address ranges (CIDR blocks)  
+- **Creating Public and Private Subnets** for better resource segregation  
+- **Configuring Route Tables and Internet Gateways** for controlled connectivity  
+- **Setting up Security Groups and Network ACLs** to manage traffic flow securely  
+- **Testing communication between subnets and cleaning up unused components** to maintain an organized and cost-efficient setup  
+
+🔗 _[View VPC Project](./VPCsachin(CSE-niit)097.pdf)
+---
 ## 📂 About the Internship
 
 This internship gave me hands-on experience across a variety of AWS services, allowing me to build and understand real infrastructure in a cloud environment. Each module was documented thoroughly to ensure that the learning is replicable and understandable by others.
